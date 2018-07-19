@@ -10,5 +10,5 @@ def line(lineArray)
     end
     puts myString
   end
-  
+
 end
