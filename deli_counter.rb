@@ -5,7 +5,7 @@ def line(lineArray)
     i = 1
     myString = "The lins is currently: "
     lineArray.each do |customer|
-      myString << "#{i}. #{lineArray[i-1]} "
+      myString << "#{i}. #{customer} "
       i+=1
     end
   end
