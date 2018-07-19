@@ -3,12 +3,11 @@ def line(lineArray)
     puts "The line is currently empty."
   else
     i = 1
-    myString = "The lins is currently:"
+    myString = "The line is currently:"
     lineArray.each do |customer|
       myString << " #{i}. #{customer}"
       i+=1
     end
     puts myString
   end
-
 end
