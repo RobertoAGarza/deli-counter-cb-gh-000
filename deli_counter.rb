@@ -11,3 +11,7 @@ def line(lineArray)
     puts myString
   end
 end
+
+def take_a_number(lineArray, newCustomer)
+  lineArray << newCustomer
+  puts "Welcome, #{newCustomer}. You are number #{lineArray.index(newCustomer)} in line.""
