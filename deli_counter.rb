@@ -1,7 +1,7 @@
 def line(lineArray)
   if lineArray.empty?
     puts "The line is currently empty."
-  elsif lineArray.size != 0
+  else
     i = 1
     lineArray.each do |customer|
       myString = myString + "#{i}. #{lineArray[i-1]} "
