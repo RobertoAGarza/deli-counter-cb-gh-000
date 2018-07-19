@@ -15,3 +15,4 @@ end
 def take_a_number(lineArray, newCustomer)
   lineArray << newCustomer
   puts "Welcome, #{newCustomer}. You are number #{lineArray.index(newCustomer)+1} in line."
+end
