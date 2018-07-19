@@ -1,5 +1,4 @@
 def line(lineArray)
-  myString = "The line is currently: "
   if lineArray.empty?
     puts "The line is currently empty."
   elsif lineArray.size != 0
@@ -11,3 +10,4 @@ def line(lineArray)
   end
   puts "#{myString}"
 end
+
