@@ -8,6 +8,7 @@ def line(lineArray)
       myString << " #{i}. #{customer}"
       i+=1
     end
+    puts myString
   end
-  puts myString
+  
 end
